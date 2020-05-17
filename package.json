@@ -4,7 +4,7 @@
   "description": "Huned's opinionated nodejs starter repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard --env mocha && NODE_ENV=test mocha --recursive",
     "start": "node ./index.js"
   },
   "repository": {
@@ -17,5 +17,16 @@
     "template"
   ],
   "author": "Huned Botee <huned@hunedbotee.com> (https://hunedbotee.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "sinon": "^9.0.2",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {},
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
 }
