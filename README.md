@@ -7,31 +7,33 @@ should be easily adaptable to Linux systems.
 
 ## Usage
 
-Clone this repo, then:
+    git clone git@github.com:huned/nodejs-starter <DIRNAME> && cd <DIRNAME>
 
-    # You should use `n` to manage node versions.
-    # Install `n` via `brew`.
-    brew install n
+    # Edit .git/config to reflect a different repo location
+    $EDITOR .git/config
 
-    # Install node via `n`. Clobbers existing node installation in `/usr/local`.
-    # Change the version of node by editing `.n-node-version`
-    n install auto
+    # Edit package.json to suit your needs and re-generate package-lock.json
+    $EDITOR package.json
+    npm install
 
-    # Copy environment variables file to the right place.
-    cp .env.sample .env
+    # Copy environment variables file and edit as needed.
+    cp .env.sample .env && $EDITOR .env
 
-    # Run it
+    # Run tests
     npm test
+
+    # Run command line utility
     npm start
 
 ## Command Line Usage
 
-This repo does not iclude a command line utility.
+    npm start --silent
 
 ## Library Choices:
 
 These come installed:
 
+* colors: use colors at the terminal
 * debug: better debug printing
 * lodash: utility stuff
 * dotenv: for loading environment variables from `.env`
