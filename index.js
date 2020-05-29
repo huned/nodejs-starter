@@ -1,5 +1,11 @@
 require('dotenv').config()
 const debug = require('debug')('index.js')
 
-debug('this is some sample debugging output')
+if (require.main === module) {
+  debug('called directly')
+} else {
+  debug('required as a module')
+}
+
 process.stdout.write('put your code in ./index.js\n')
+module.exports = {}
