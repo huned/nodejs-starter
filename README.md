@@ -4,6 +4,10 @@ Main repo: [https://github.com/huned/nodejs-starter](https://github.com/huned/no
 
 Use this repository as a template for your next node.js project.
 
+## Installation
+
+    Nothing here yet.
+
 ## Usage
 
     git clone git@github.com:huned/nodejs-starter <DIRNAME> && cd <DIRNAME>
