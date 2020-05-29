@@ -1,9 +1,11 @@
 # Huned's opinionated nodejs starter repository for lazy developers
 
+Main repo: [https://github.com/huned/nodejs-starter](https://github.com/huned/nodejs-starter)
+
 The instructions below assume you're using MacOS and homebrew, but
 should be easily adaptable to Linux systems.
 
-## Getting Started
+## Usage
 
 Clone this repo, then:
 
@@ -21,6 +23,10 @@ Clone this repo, then:
     # Run it
     npm test
     npm start
+
+## Command Line Usage
+
+This repo does not iclude a command line utility.
 
 ## Library Choices:
 
@@ -44,3 +50,11 @@ Use these as needed in projects. They're of reasonable quality.
 * cheerio: parsing html
 * puppeteer: web scraping via headless chromium
 * pdfjs-dist: pdf parsing and rendering
+
+## Author(s)
+
+* [Huned Botee](huned@hunedbotee.com)
+
+## License
+
+MIT
