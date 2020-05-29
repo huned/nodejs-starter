@@ -2,8 +2,7 @@
 
 Main repo: [https://github.com/huned/nodejs-starter](https://github.com/huned/nodejs-starter)
 
-The instructions below assume you're using MacOS and homebrew, but
-should be easily adaptable to Linux systems.
+Use this repository as a template for your next node.js project.
 
 ## Usage
 
