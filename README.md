@@ -46,6 +46,7 @@ These come installed:
 
 Use these as needed in projects. They're of reasonable quality.
 
+* meow: helper for command line programs
 * numeral: number parsing and formatting
 * moment: date/time parsing and formatting
 * sequelize: orm
