@@ -7,6 +7,7 @@
     "test": "standard --env mocha && NODE_ENV=test mocha --recursive",
     "start": "node ./index.js"
   },
+  "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/huned/nodejs-starter.git"
