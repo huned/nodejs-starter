@@ -1,6 +1,7 @@
 {
   "name": "nodejs-starter",
   "version": "0.0.2",
+  "type": "module",
   "description": "Huned's opinionated nodejs starter repository",
   "main": "index.js",
   "scripts": {
