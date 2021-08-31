@@ -38,7 +38,6 @@ These come installed:
 
 * colors: use colors at the terminal
 * debug: better debug printing
-* lodash: utility stuff
 * dotenv: for loading environment variables from `.env`
 * mocha: for testing
 * sinon: for mocking and stubbing
@@ -46,13 +45,11 @@ These come installed:
 
 Use these as needed in projects. They're of reasonable quality.
 
+* lodash: utility stuff
 * meow: helper for command line programs
 * numeral: number parsing and formatting
 * moment: date/time parsing and formatting
-* sequelize: orm
-* pg: for sequelize
-* pg-hstore: for sequelize
-* bent: making http requests
+* got: making http requests
 * cheerio: parsing html
 * puppeteer: web scraping via headless chromium
 * pdfjs-dist: pdf parsing and rendering
