@@ -8,7 +8,13 @@ Use this repository as a template for your next node.js project.
 
     Nothing here yet.
 
-## Usage
+## Command Line Usage
+
+    npm start --silent
+
+  See `man TODO` for more.
+
+## Node.js Usage
 
     git clone git@github.com:huned/nodejs-starter <DIRNAME> && cd <DIRNAME>
 
@@ -28,31 +34,51 @@ Use this repository as a template for your next node.js project.
     # Run command line utility
     npm start
 
-## Command Line Usage
-
-    npm start --silent
-
 ## Library Choices:
 
 These come installed:
 
-* colors: use colors at the terminal
 * debug: better debug printing
 * dotenv: for loading environment variables from `.env`
 * mocha: for testing
 * sinon: for mocking and stubbing
 * standard: enforces standard js style
 
-Use these as needed in projects. They're of reasonable quality.
+Use these as needed in projects:
 
 * lodash: utility stuff
 * meow: helper for command line programs
-* numeral: number parsing and formatting
-* moment: date/time parsing and formatting
-* got: making http requests
+* node-fetch: making http requests
+  * alternatively: got
 * cheerio: parsing html
 * puppeteer: web scraping via headless chromium
-* pdfjs-dist: pdf parsing and rendering
+* get-stdin: getting input from stdin
+
+## TODOs
+
+- Make a checklist of things to do when starting a new project
+  - clone repo
+  - update .git/config
+  - update package.json
+  - npm update (manually update package versions?)
+  - npm test
+  - add notes for how to remove parts you don't want/need
+    - cli
+    - reading from .env
+    - usage generator (a really good one)
+- Make a starter CLI program
+  - set package.json's bin property
+  - meow for arguments
+  - getStdin for reading stdin
+  - debug for debug printing
+  - man page (see https://gist.github.com/dominikwilkowski/cba6c8c6b1ded8d3e3cc6bf0b7ddc432)
+- Add jsdoc
+  - npm insall --save-dev jsdoc
+  - document some items with good jsdoc that I can just adopt everywhere
+- Convert to typescript?
+- Add a CONTRIBUTING.md, CODE_OF_CONDUCT.md, LICENSE
+- How to generate changelogs?
+- remove .n-node-version
 
 ## Author(s)
 
